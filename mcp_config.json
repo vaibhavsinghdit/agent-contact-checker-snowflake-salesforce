@@ -1,0 +1,23 @@
+{
+  "snowflake": {
+    "description": "Student information including name, email, and student ID, stored in Snowflake.",
+    "database": "ODS",
+    "schema": "UNI",
+    "table": "STUDENTS",
+    "qualified_table": "ODS.UNI.STUDENTS",
+    "fields": {
+      "first_name": "FIRST_NAME",
+      "last_name": "LAST_NAME",
+      "email": "EMAIL",
+      "STU_ID": "STU_ID"
+    }
+  },
+  "salesforce": {
+    "description": "Salesforce Contacts",
+    "object": "contact",
+    "fields": {
+      "email": "Email",
+      "id": "Id"
+    }
+  }
+}
