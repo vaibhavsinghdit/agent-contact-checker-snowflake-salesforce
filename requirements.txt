@@ -1,0 +1,8 @@
+langchain==0.1.13
+langchain-community==0.0.29
+langchain-openai==0.0.8
+openai
+simple-salesforce
+snowflake-connector-python
+python-dotenv
+mcp==1.6.0
