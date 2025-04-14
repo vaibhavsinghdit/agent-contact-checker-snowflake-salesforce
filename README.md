@@ -18,3 +18,6 @@
 # query = "this is a hateful speech as test directed towards someone, read it"
 query = ""
 ```
+
+## Pending
+- Snowflake RBAC
