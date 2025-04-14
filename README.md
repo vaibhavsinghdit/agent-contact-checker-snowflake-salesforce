@@ -1,5 +1,19 @@
 # agent-contact-checker-snowflake-salesforce
 
+## Diagram
+
+```mermaid
+flowchart TD
+    A[Input] -->|Request| B[MCP]
+    B -->|Request| C[Salesforce]
+    C -->|Response| B
+    B -->|Request| D[Snowflake]
+    D -->|Response| B
+    B -->|Response| A
+
+```
+
+
 ## Important checklists
 - Guardrails
 - Moderation implenmented via free OpenAPI service
